@@ -78,7 +78,7 @@ TBD
 * Vercel - cloud platform for building and deploying scalable serverless applications
 * Clerk - Authentication and user management
 * Axiom - continuous monitoring & observability, as well as an event store for running analytics and deriving insights from all their event data
-
+* PlanetScale - is a MySQL-compatible serverless database that brings you scale, performance, and reliability — without sacrificing developer experience
 
 <hr></hr>
 
