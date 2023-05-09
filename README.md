@@ -89,8 +89,7 @@ TBD
 
 ## Project Status
 
--API call successful
--Pokemon rendered with pictures, types, and name
+-login and signout implemented
 
 <hr></hr>
 
