@@ -6,6 +6,21 @@
 
 <hr></hr>
 
+## Table of Contents
+* [t3 Stack](#t3-stack)
+* [Background](#background)
+* [Features](#features)
+* [Technologies Used](#technologies-used)
+* [Setup](#setup)
+* [Usage](#usage)
+* [Project Status](#project-status)
+* [Room for Improvement](#room-for-improvement)
+* [Acknowledgements](#acknowledgements)
+* [Contact](#contact)
+
+<hr></hr>
+
+## T3 Stack
 This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
 
 ## What's next? How do I make an app with this?
@@ -39,18 +54,7 @@ Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/ver
 
 
 
-## Table of Contents
-* [Background](#background)
-* [Features](#features)
-* [Technologies Used](#technologies-used)
-* [Setup](#setup)
-* [Usage](#usage)
-* [Project Status](#project-status)
-* [Room for Improvement](#room-for-improvement)
-* [Acknowledgements](#acknowledgements)
-* [Contact](#contact)
 
-<hr></hr>
 
 ## Background
 
