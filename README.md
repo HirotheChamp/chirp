@@ -2,7 +2,7 @@
 
 
 
-<h3 align="center">API call to gather first 151 Pokemon</h3>
+<h3 align="center">emotes!</h3>
 
 <hr></hr>
 
@@ -11,8 +11,6 @@
 * [Background](#background)
 * [Features](#features)
 * [Technologies Used](#technologies-used)
-* [Setup](#setup)
-* [Usage](#usage)
 * [Project Status](#project-status)
 * [Room for Improvement](#room-for-improvement)
 * [Acknowledgements](#acknowledgements)
@@ -87,20 +85,7 @@ TBD
 
 
 
-## Setup
 
-N/A
-
-<hr></hr>
-
-## Usage
-
-N/A
-
-
-
-
-<hr></hr>
 
 ## Project Status
 
