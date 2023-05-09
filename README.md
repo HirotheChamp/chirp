@@ -73,11 +73,12 @@ TBD
 
 ## Technologies Used
 
-* JavaScript
+* TypeScript
  
 * HTML, CSS, JSON -- used to create front end form creation script
-
-
+* Vercel - cloud platform for building and deploying scalable serverless applications
+* Clerk - Authentication and user management
+* Axiom - continuous monitoring & observability, as well as an event store for running analytics and deriving insights from all their event data
 
 
 <hr></hr>
