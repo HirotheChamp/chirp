@@ -44,16 +44,25 @@ const ratelimit = new Ratelimit({
   redis: Redis.fromEnv(),
   limiter: Ratelimit.slidingWindow(3, "1 m"),
   analytics: true,
-  /**
-   * Optional prefix for the keys used in redis. This is useful if you want to share a redis
-   * instance with other applications and want to avoid key collisions. The default prefix is
-   * "@upstash/ratelimit"
-   */ 
-  prefix: "@upstash/ratelimit",
 });
+
 
 export const postsRouter = createTRPCRouter({
  
+  getById: publicProcedure
+  .input(z.object({ id: z.string()}))
+  .query( async ({ ctx, input }) => {
+  const post = await ctx.prisma.post.findUnique({
+    where: {id: input.id},
+   });
+ 
+   if (!post) throw new TRPCError({code: "NOT_FOUND"});
+
+   return (await addUserDataToPosts([post]))[0];
+}),
+
+
+
   getAll: publicProcedure.query( async ({ ctx }) => {
     const posts = await ctx.prisma.post.findMany({
       take: 100,
