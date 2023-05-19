@@ -33,7 +33,7 @@ if(!data) return <div>404</div>
       </Head>
       <PageLayout>
        
-      <div className=" h-48  bg-slate-600 relative">
+      <div className=" h-36  bg-slate-600 relative">
         <Image 
         src={data.profileImageUrl} 
         alt={`${data.username ?? ""}'s profile pic `}
@@ -42,8 +42,11 @@ if(!data) return <div>404</div>
 
         className="-mb-[64px] absolute bottom-0 left-0 ml-4 rounded-full border-4 border-black"
         />
-      <div>{data.username}</div>
+      
       </div>
+      <div className="h-[64px]"></div>
+      <div className="p-4 text-2xl font-bold">{`@${data.username ?? ""}`}</div>
+      <div className="w-full border-b border-slate-400"/>
      </PageLayout>
     </>
   );
