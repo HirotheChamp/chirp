@@ -57,7 +57,7 @@ Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/ver
 
 ## Background
 
-This projects has a major emphasis on using JavaScript.
+This projects has a major emphasis on using TypeScript alongside scalability.
 
 
 <hr></hr>
@@ -73,7 +73,6 @@ TBD
 ## Technologies Used
 
 * TypeScript
- 
 * HTML, CSS, JSON -- used to create front end form creation script
 * Vercel - cloud platform for building and deploying scalable serverless applications
 * Clerk - Authentication and user management
